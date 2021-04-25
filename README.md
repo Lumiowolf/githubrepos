@@ -23,3 +23,8 @@ python main.py
 while being in project folder.
 Then open your browser and go to localhost:8080
 Enter username to look for and push "submit".
+# Further improvements
+In future I would add some features and changes like:
+* CSS to provide better user experience
+* For every repository add link to access it
+* Aside from total count of stargazers I think of adding exact amount of stargazers for each repository
