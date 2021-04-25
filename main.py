@@ -32,16 +32,6 @@ def user(name):
             i += 1
         return render_template('user.html', name=user, repos=repos_list, stars=stars)
 
-    # user = "SparkyDoggie"
-    # user_object = git.get_user(login=user)
-    # repos = user_object.get_repos()
-    # for i in range(repos.totalCount):
-    #     return render_template("index.html")
-
-    # print(u_data)
-    # print(repos.get_page(0))
-    # print(repos.totalCount)
-
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=8080, debug=True)
+    app.run(host="127.0.0.1", port=8080)
